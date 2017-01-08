@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C2E840BA1E207298003F528D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E840B91E207298003F528D /* AppDelegate.swift */; };
-		C2E840BC1E207298003F528D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E840BB1E207298003F528D /* ViewController.swift */; };
+		C2E840BC1E207298003F528D /* signUPVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E840BB1E207298003F528D /* signUPVC.swift */; };
 		C2E840BF1E207298003F528D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E840BD1E207298003F528D /* Main.storyboard */; };
 		C2E840C21E207298003F528D /* myPoll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2E840C01E207298003F528D /* myPoll.xcdatamodeld */; };
 		C2E840C41E207298003F528D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E840C31E207298003F528D /* Assets.xcassets */; };
 		C2E840C71E207298003F528D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E840C51E207298003F528D /* LaunchScreen.storyboard */; };
 		C2E840D21E207299003F528D /* myPollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E840D11E207299003F528D /* myPollTests.swift */; };
 		C2E840DD1E207299003F528D /* myPollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E840DC1E207299003F528D /* myPollUITests.swift */; };
+		C2F9D9CB1E20C65500E8C035 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9D9CA1E20C65500E8C035 /* MainVC.swift */; };
+		C2F9D9CD1E20D67B00E8C035 /* DrawerBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9D9CC1E20D67A00E8C035 /* DrawerBaseVC.swift */; };
+		C2F9D9CF1E20D9D000E8C035 /* DrawerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9D9CE1E20D9D000E8C035 /* DrawerVC.swift */; };
+		C2F9D9D31E20DB0900E8C035 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F9D9D21E20DB0900E8C035 /* PlayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,7 @@
 /* Begin PBXFileReference section */
 		C2E840B61E207298003F528D /* myPoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E840B91E207298003F528D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2E840BB1E207298003F528D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E840BB1E207298003F528D /* signUPVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUPVC.swift; sourceTree = "<group>"; };
 		C2E840BE1E207298003F528D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2E840C11E207298003F528D /* myPoll.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myPoll.xcdatamodel; sourceTree = "<group>"; };
 		C2E840C31E207298003F528D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		C2E840D81E207299003F528D /* myPollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myPollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E840DC1E207299003F528D /* myPollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPollUITests.swift; sourceTree = "<group>"; };
 		C2E840DE1E207299003F528D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F9D9CA1E20C65500E8C035 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		C2F9D9CC1E20D67A00E8C035 /* DrawerBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerBaseVC.swift; sourceTree = "<group>"; };
+		C2F9D9CE1E20D9D000E8C035 /* DrawerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerVC.swift; sourceTree = "<group>"; };
+		C2F9D9D21E20DB0900E8C035 /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				C2E840B91E207298003F528D /* AppDelegate.swift */,
-				C2E840BB1E207298003F528D /* ViewController.swift */,
+				C2E840BB1E207298003F528D /* signUPVC.swift */,
 				C2E840BD1E207298003F528D /* Main.storyboard */,
 				C2E840C31E207298003F528D /* Assets.xcassets */,
 				C2E840C51E207298003F528D /* LaunchScreen.storyboard */,
 				C2E840C81E207298003F528D /* Info.plist */,
 				C2E840C01E207298003F528D /* myPoll.xcdatamodeld */,
+				C2F9D9CA1E20C65500E8C035 /* MainVC.swift */,
+				C2F9D9CC1E20D67A00E8C035 /* DrawerBaseVC.swift */,
+				C2F9D9CE1E20D9D000E8C035 /* DrawerVC.swift */,
+				C2F9D9D21E20DB0900E8C035 /* PlayVC.swift */,
 			);
 			path = myPoll;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F9D9CD1E20D67B00E8C035 /* DrawerBaseVC.swift in Sources */,
+				C2F9D9CF1E20D9D000E8C035 /* DrawerVC.swift in Sources */,
 				C2E840C21E207298003F528D /* myPoll.xcdatamodeld in Sources */,
-				C2E840BC1E207298003F528D /* ViewController.swift in Sources */,
+				C2E840BC1E207298003F528D /* signUPVC.swift in Sources */,
+				C2F9D9D31E20DB0900E8C035 /* PlayVC.swift in Sources */,
 				C2E840BA1E207298003F528D /* AppDelegate.swift in Sources */,
+				C2F9D9CB1E20C65500E8C035 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +525,7 @@
 				C2E840E31E207299003F528D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E840E41E207299003F528D /* Build configuration list for PBXNativeTarget "myPollTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				C2E840E61E207299003F528D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E840E71E207299003F528D /* Build configuration list for PBXNativeTarget "myPollUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				C2E840E91E207299003F528D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
